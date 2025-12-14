@@ -66,7 +66,7 @@ Supporting scenarios (search, filter, delete, pagination) complete the coverage 
 
 ---
 
-## 🖥 Selenium WebDriver Implementation
+## Selenium WebDriver Implementation
 
 ### Correct Usage
 - Driver initialization in a Pytest fixture.  
