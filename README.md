@@ -1,6 +1,6 @@
 # OrangeHRM Recruitment – Vacancies Automation (Selenium + Pytest)
 
-## 📌 Overview
+## Overview
 This repository contains automated functional tests for the **Vacancies module** in the OrangeHRM Recruitment system.  
 It validates workflows such as navigation, vacancy creation, search, filtering, pagination, and attachment management on the demo site.
 
@@ -12,7 +12,7 @@ The goal is to:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - Python 3  
 - Selenium WebDriver  
 - Pytest  
@@ -21,7 +21,7 @@ The goal is to:
 
 ---
 
-## ⚙️ Test Environment
+## Test Environment
 - **URL:** https://opensource-demo.orangehrmlive.com  
 - **Browser:** Microsoft Edge  
 - **OS:** Windows 11  
@@ -39,7 +39,7 @@ The goal is to:
 
 ---
 
-## ✅ Test Coverage
+## Test Coverage
 
 | Test Case ID | Description                | Priority |
 |--------------|----------------------------|----------|
@@ -54,7 +54,7 @@ The goal is to:
 
 ---
 
-## ▶️ Choice of Scenarios
+## Choice of Scenarios
 The **Add Vacancy scenario (TCRECVAC003)** is the most critical. It verifies that an HR user can:
 - Open the Add Vacancy form.  
 - Fill in all required fields with valid data.  
@@ -90,7 +90,7 @@ Supporting scenarios (search, filter, delete, pagination) complete the coverage 
 
 ---
 
-## 🧪 Pytest Framework Implementation
+## Pytest Framework Implementation
 
 ### Fixtures
 - Central `driver()` fixture handles browser setup, navigation to login, and teardown.
@@ -108,7 +108,7 @@ Supporting scenarios (search, filter, delete, pagination) complete the coverage 
 
 ---
 
-## 📊 Assertions, Reporting & Logging
+## Assertions, Reporting & Logging
 
 ### Assertions
 - URL and page title confirm Vacancies page opened correctly.  
@@ -133,7 +133,7 @@ Supporting scenarios (search, filter, delete, pagination) complete the coverage 
 
 ---
 
-## ▶️ Running Tests
+## Running Tests
 
 - **Basic run (all tests):**
   ```bash
