@@ -22,28 +22,22 @@ recruitment/ ├── test_recruitment.py ├── test_vacancies.py ├──
 Install dependencies:
 ```bash
 pip install selenium pytest
-
-Run all tests:
-
+```
+## Run all tests:
+```bash
 pytest -v
-
-Run tests with HTML report:
-
+```
+## Run tests with HTML report:
+```bash
 pytest -v --html=recruitment/report.html
-
-Test Target
-
+```
+## Test Target
 Application: OrangeHRM
-
 Area Tested: Recruitment
-
 Module: Vacancies
 
-
-Author
-
+## Author
 Earl Justine Lucernas
 
-Note
-
+## Note
 This project is for educational and QA automation practice purposes only.
